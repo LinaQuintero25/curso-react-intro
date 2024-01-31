@@ -7,6 +7,7 @@ import { TodoItem } from "../TodoItem";
 import { TodosLoading } from "../TodosLoading";
 import { TodosError } from "../TodosError";
 import { EmptyTodos } from "../EmptyTodos";
+import { TodoForm } from "../TodoForm";
 import { CreateTodoButton } from "../CreateTodoButton";
 import { TodoContext } from "../TodoContext";
 import { Modal } from "../Modal";
@@ -63,7 +64,7 @@ function AppUI() {
       
       {openModal &&(
         <Modal>
-          Modal creado
+         <TodoForm />
         </Modal>
       )
 
